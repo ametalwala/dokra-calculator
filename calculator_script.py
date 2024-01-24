@@ -34,8 +34,8 @@ while True:
     # confirming choice is one of the four options
     if choice in ('1', '2', '3', '4'): 
         try: 
-            letter_num1 = input("Enter first dokra (a-i; 0 = 0): ").lower()
-            letter_num2 = input("Enter second dorka (a-i; 0 = 0): ").lower()
+            letter_num1 = input("Enter first dokra (a-i; 0 = 0): ").upper()
+            letter_num2 = input("Enter second dorka (a-i; 0 = 0): ").upper()
             
             current_digit = letter_to_digit.get(letter_num1, 0)
             digit = letter_to_digit.get(letter_num2, 0)
